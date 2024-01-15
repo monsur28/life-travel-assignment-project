@@ -14,20 +14,21 @@ body{
 }
 
 /* nav styles */
+.banner-container{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 
-nav{
-    height: 100px;
-}  
+}
 
 nav img{
     width: 150px;
     position: absolute;
     top: 80px;
-    left: 12%;
+    left: 9%;
 }
 nav ul{
     float: right;
-    margin-right: 25px;
+    margin-right: 70px;
 }
 
 nav ul li{
@@ -85,7 +86,7 @@ nav{
 
 .website-name {
     margin-top: 60px; 
-    margin-left: 110px;
+    margin-left: 60px;
     color: #131318;
     font-size: 36px;
     font-weight: 800;
@@ -116,6 +117,87 @@ nav li{
     font-size: 18px;
     font-weight: 700;
 }
+
+/* banner styles */
+
+.banner-image-container{
+    width: 1170px;
+    height: 500px;
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+
+.banner-image-overlay{
+    width: 1170px;
+    height: 500px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 16px;
+    left: 135px;
+    top: 194px;
+    text-align: center;
+}
+
+.banner-image-text{
+    margin-top: 106px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-image-description{
+    margin-top: -60px;
+    margin-left: 240px;
+    margin-right: 240px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-container{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.search-container input, select, button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400; 
+    border: none;
+}
+
+.search-container button{
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fa-solid fa-magnifying-glass{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -179,5 +261,42 @@ nav li{
         display: block;
     }
 
-
+    .banner-image-container{
+        width: 450px;
+        height: 483px;
+        position: absolute;
+        left: 50px;
+    }
+    
+    .banner-image-overlay{
+        width: 450px;
+        height: 483px;
+        position: absolute;
+        left: 1px;
+        top: 1px;
+    }
+    .banner-image-text{
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+        margin-top: 30px;
+    }
+    .banner-image-description{
+        width: 400px;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 16px;
+        margin-top: -10px;
+        margin-left: 30px;
+    }
+    .search-container{
+        display: flex;
+        width: 180px;
+        padding: 16px;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: -170px;
+        margin-left: -125px;
+    }
 }
