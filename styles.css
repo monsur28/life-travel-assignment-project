@@ -413,6 +413,7 @@ nav li{
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
+    margin-bottom: 100px;
 }
 
 .newsletter-container input{
@@ -480,9 +481,52 @@ nav li{
     top: 645.60%;
 }
 
+/* footer section */
+footer{
+    width: 1440px;
+    height: 300px;
+}
+.f-imag{
+    width: 50px;
+    height: 50px;
+    margin-left: 36%;
+}
+.footer-web{
+    font-size: 32px;
+    margin-top: -122px;
+    margin-left: 40%;
+}
 
+.footer-description{
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -30%;
+}
+.social-icon i{
+    margin-right: 20px;
+}
 
+.social-icon{
+    text-align: center;
+    
+}
 
+.hr1{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.copyright{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
 
 /* Mobile responsive Styles */
 
@@ -769,7 +813,7 @@ nav li{
         width: 214.023px;
         height: 100px;
         position: absolute;
-        top: 84%;
+        top: 85.80%;
         left: 222px;
     }
     .discount-image h3{
@@ -777,5 +821,37 @@ nav li{
     }
     .discount-image h2{
         font-size: 21.138px;
+    }
+    footer{
+        width: 375px;
+        height: 309px;
+        margin-top: 320%;
+    }
+    .f-imag{
+        width: 28.724px;
+        height: 33.516px;
+        margin-left: 3%;
+    }
+    .footer-web{
+        font-size: 21.543px;
+        margin-top: -82px;
+        margin-left: 12%;
+    }
+    .footer-description{
+        width: 287px;
+        font-size: 14px;
+        margin-left: -70px;
+    }
+    .social-icon{
+        margin-right: 120px;
+    }
+    .hr1{
+        width: 335px;
+        height: 1px;
+        margin-left: -10%;
+    }
+    .copyright{
+        font-size: 14px;
+        margin-left: -35%;
     }
 }
