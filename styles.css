@@ -243,46 +243,46 @@ nav li{
   
 .centered1 {
     position: absolute;
-    top: 255%; 
+    top: 265%; 
     left: 28%; 
     transform: translate(-50%, -50%);
 }
 
 .centered2 {
     position: absolute;
-    top: 260%; 
+    top: 265%; 
     left: 70%; 
     transform: translate(-50%, -50%);
 }
 
 .centered3 {
     position: absolute;
-    top: 305%; 
+    top: 315%; 
     left: 21%; 
     transform: translate(-50%, -50%);
 }
 .centered4 {
     position: absolute;
-    top: 305%; 
+    top: 315%; 
     left: 52%; 
     transform: translate(-50%, -50%);
 }
 
 .centered5 {
     position: absolute;
-    top: 305%; 
+    top: 315%; 
     left: 79%; 
     transform: translate(-50%, -50%);
 }
 .centered6 {
     position: absolute;
-    top: 350%; 
+    top: 360%; 
     left: 25%; 
     transform: translate(-50%, -50%);
 }
 .centered7 {
     position: absolute;
-    top: 350%; 
+    top: 360%; 
     left: 65%; 
     transform: translate(-50%, -50%);
 }
@@ -398,7 +398,7 @@ nav li{
 .lost{
     width: 276px;
     position: absolute;
-    top: 565%;
+    top: 410%;
     left: 62%;
     color: #FFF;
     text-align: center;
@@ -477,8 +477,8 @@ nav li{
     font-size: 24px;
     font-weight: 400;
     position: absolute;
-    right: 9.75%;
-    top: 645.60%;
+    right: 7%;
+    top: 660%;
 }
 
 /* footer section */
@@ -531,6 +531,7 @@ footer{
 /* Mobile responsive Styles */
 
 @media screen and (max-width:600px){
+    
     nav img{
         left: 8%;
         top: 40px;
@@ -616,12 +617,12 @@ footer{
         margin-left: 30px;
     }
     .search-container{
-        display: flex;
         width: 180px;
         padding: 16px;
         flex-direction: column;
+        flex-wrap: wrap;
         gap: 16px;
-        margin-top: -210px;
+        margin-top: -205px;
         margin-left: -125px;
     }
 
@@ -656,23 +657,22 @@ footer{
     }
 
     .centered1 {
+        flex-wrap: wrap;
         position: absolute;
-        top: 354%; 
+        top: 355%; 
         left: 48%; 
-        transform: translate(-50%, -50%);
     }
     .centered2 {
+        flex-wrap: wrap;
         position: absolute;
         top: 380%; 
         left: 48%; 
-        transform: translate(-50%, -50%);
     }
 
     .centered3 {
         position: absolute;
-        top: 410%; 
+        top: 408%; 
         left: 48%; 
-        transform: translate(-50%, -50%);
     }
     .centered4 {
         position: absolute;
@@ -682,7 +682,7 @@ footer{
     }
     .centered5 {
         position: absolute;
-        top: 462%; 
+        top: 465%; 
         left: 48%; 
         transform: translate(-50%, -50%);
     }
@@ -739,15 +739,14 @@ footer{
     }
     .choose-card-container{
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .choose-card-container div{
         width: 365px;
-        height: 289px;
         margin-left: -30%;
     }
     .rowcard div{
         width: 365px;
-        height: 289px;
         position:  absolute;
         left: 7%;
     }
@@ -788,18 +787,23 @@ footer{
     .l-img{
         width: 450px;
         margin-left: -90px;
+        margin-top: -80px;
     }
     .lost-text{
         width: 450px;
         margin-left: -30%;
     }
 
+    .lost{
+        margin-top: 505%;
+        margin-left: -38%;
+    }
+
     .newsletter{
         flex-direction: column;
         gap: 20px;
-        position: absolute;
-        top: 890%;
-        left: 25px;
+        margin-left: -42px;
+        margin-top: 20px;
     }
     .newsletter-container{
         padding: 15px;
@@ -808,13 +812,13 @@ footer{
     .dis-img{
         width: 445px;
         margin-left: -2px;
+        margin-top: -80px;
     }
     .discount-image{
         width: 214.023px;
         height: 100px;
-        position: absolute;
-        top: 85.80%;
-        left: 222px;
+        margin-top: 378%;
+        margin-right: 54px;
     }
     .discount-image h3{
         font-size: 15.854px;
@@ -824,8 +828,7 @@ footer{
     }
     footer{
         width: 375px;
-        height: 309px;
-        margin-top: 320%;
+        margin-top: 20%;
     }
     .f-imag{
         width: 28.724px;
